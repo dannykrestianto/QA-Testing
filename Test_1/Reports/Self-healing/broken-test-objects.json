@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_nopCommerce demo store. Apple MacBook _575512/span_shopping cart_close",
+      "brokenLocator": "//div[@id\u003d\u0027bar-notification\u0027]/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_nopCommerce demo store. Apple MacBook _575512/span_shopping cart_close_position.png"
+    }
+  ]
+}
