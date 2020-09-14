@@ -6,15 +6,19 @@
    <elementGuidId>37c1e41b-67ef-4430-9be6-fed289377502</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#product_enteredQuantity_4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='product_enteredQuantity_4']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'product_enteredQuantity_4' and @type = 'text' and @name = 'addtocart_4.EnteredQuantity']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#product_enteredQuantity_4</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

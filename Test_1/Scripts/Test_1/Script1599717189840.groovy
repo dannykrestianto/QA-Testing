@@ -20,23 +20,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo.nopcommerce.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store/input_You have no items in your shopping cart._q'), 
-    'mac')
+WebUI.setText(findTestObject('Page_nopCommerce demo store/input_You have no items in your shopping cart._q'), 'mac')
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store/span_Apple MacBook Pro 13-inch'))
+WebUI.click(findTestObject('Page_nopCommerce demo store/input_You have no items in your shopping ca_b9bc7f'))
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Apple MacBook _575512/div_Apple MacBook Pro 13-inchA groundbreaki_055942'))
+WebUI.click(findTestObject('Page_nopCommerce demo store. Search/a_Apple MacBook Pro 13-inch'))
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Apple MacBook _575512/input_Qty_addtocart_4.EnteredQuantity'), 
-    '4')
+WebUI.click(findTestObject('Page_nopCommerce demo store. Apple MacBook _575512/span_shopping cart_close'))
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Apple MacBook _575512/input_Qty_add-to-cart-button-4'))
+WebUI.click(findTestObject('Page_nopCommerce demo store. Apple MacBook _575512/span_Shopping cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Apple MacBook _575512/span_shopping cart_close'))
-
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Apple MacBook _575512/span_Shopping cart'))
-
-WebUI.click(findTestObject('Page_nopCommerce demo store. Shopping Cart/button_Checkout'))
+WebUI.verifyTextPresent('', false)
 
 WebUI.closeBrowser()
 
