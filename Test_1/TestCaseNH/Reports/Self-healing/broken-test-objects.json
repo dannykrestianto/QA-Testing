@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/a_Tambahkan ke Cart",
+      "brokenLocator": "//div[@id\u003d\u0027orderflow-domain\u0027]/div[4]/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027javascript:void(0);\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/a_Tambahkan ke Cart_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/a_Lanjutkan",
+      "brokenLocator": "//div[@id\u003d\u0027checkout-button\u0027]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Login\u0027])[2]/following::a[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/a_Lanjutkan_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/a_Konfirmasi Pembayaran di Member Area",
+      "brokenLocator": "//div[@id\u003d\u0027vue-wrapper\u0027]/div[3]/div/div/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Login\u0027])[2]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/a_Konfirmasi Pembayaran di Member Area_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/div_mulai dari Rp 125rbdomain per tahun_add_68c100",
+      "brokenLocator": "//div[@id\u003d\u0027vue-wrapper\u0027]/div[3]/div/div/div[2]/section/div/div/div[2]/div[2]/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Order Hosting  Web Hosting Indonesia G_0117f5/div_mulai dari Rp 125rbdomain per tahun_add_68c100_position.png"
+    }
+  ]
+}
